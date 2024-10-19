@@ -1,0 +1,172 @@
+2024/10/14 09:45:35 Logging started...
+2024/10/14 09:45:35 Source Image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 09:45:35 Source Image: quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/monitoring/prometheus-config-reloader:v0.27.0
+2024/10/14 09:45:35 Source Image: quay.io/prometheus/blackbox-exporter:v0.27.0
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.27.0
+2024/10/14 09:45:35 Source Image: docker.elastic.co/eck/eck-operator
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/test/eck-operator
+2024/10/14 09:45:35 Source Image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/test/elasticsearch-exporter
+2024/10/14 09:45:35 Source Image: docker.elastic.co/elasticsearch/elasticsearch
+2024/10/14 09:45:35 Target Image: 192.168.28.210:50000/test/elasticsearch
+2024/10/14 09:45:39 Successfully pulled image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 09:45:39 Successfully tagged image: quay.io/prometheuscommunity/elasticsearch-exporter to 192.168.28.210:50000/test/elasticsearch-exporter
+2024/10/14 09:45:39 Successfully pulled image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 09:45:39 Successfully tagged image: quay.io/prometheus/alertmanager:v0.27.0 to 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 09:45:39 Successfully pushed image: 192.168.28.210:50000/test/elasticsearch-exporter
+2024/10/14 09:45:39 Successfully pushed image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 09:45:39 Error pulling image docker.elastic.co/eck/eck-operator: Error response from daemon: manifest for docker.elastic.co/eck/eck-operator:latest not found: manifest unknown: manifest unknown
+2024/10/14 09:45:39 Error pulling image docker.elastic.co/elasticsearch/elasticsearch: Error response from daemon: manifest for docker.elastic.co/elasticsearch/elasticsearch:latest not found: manifest unknown: manifest unknown
+2024/10/14 09:45:39 Error pulling image quay.io/prometheus/blackbox-exporter:v0.27.0: Error response from daemon: manifest for quay.io/prometheus/blackbox-exporter:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 09:45:42 Error pulling image quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0: Error response from daemon: manifest for quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 10:07:48 Logging started...
+2024/10/14 10:07:48 Source Image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:07:48 Source Image: quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/monitoring/prometheus-config-reloader:v0.27.0
+2024/10/14 10:07:48 Source Image: quay.io/prometheus/blackbox-exporter:v0.27.0
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.27.0
+2024/10/14 10:07:48 Source Image: docker.elastic.co/eck/eck-operator
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/test/eck-operator:latest
+2024/10/14 10:07:48 Source Image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:07:48 Source Image: docker.elastic.co/elasticsearch/elasticsearch
+2024/10/14 10:07:48 Target Image: 192.168.28.210:50000/test/elasticsearch:latest
+2024/10/14 10:07:53 Successfully pulled image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:07:53 Successfully pulled image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:07:53 Successfully tagged image: quay.io/prometheuscommunity/elasticsearch-exporter to 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:07:53 Successfully tagged image: quay.io/prometheus/alertmanager:v0.27.0 to 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:07:54 Successfully pushed image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:07:54 Successfully pushed image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:07:54 Error pulling image docker.elastic.co/elasticsearch/elasticsearch: Error response from daemon: manifest for docker.elastic.co/elasticsearch/elasticsearch:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:07:54 Error pulling image quay.io/prometheus/blackbox-exporter:v0.27.0: Error response from daemon: manifest for quay.io/prometheus/blackbox-exporter:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 10:07:54 Error pulling image docker.elastic.co/eck/eck-operator: Error response from daemon: manifest for docker.elastic.co/eck/eck-operator:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:07:54 Error pulling image quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0: Error response from daemon: manifest for quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 10:09:16 Logging started...
+2024/10/14 10:09:16 Source Image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:09:16 Source Image: quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/monitoring/prometheus-config-reloader:v0.27.0
+2024/10/14 10:09:16 Source Image: quay.io/prometheus/blackbox-exporter:v0.27.0
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.27.0
+2024/10/14 10:09:16 Source Image: docker.elastic.co/eck/eck-operator
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/test/eck-operator:latest
+2024/10/14 10:09:16 Source Image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:09:16 Source Image: docker.elastic.co/elasticsearch/elasticsearch
+2024/10/14 10:09:16 Target Image: 192.168.28.210:50000/test/elasticsearch:latest
+2024/10/14 10:09:20 Successfully pulled image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:09:20 Successfully tagged image: quay.io/prometheuscommunity/elasticsearch-exporter to 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:09:20 Successfully pulled image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:09:20 Successfully tagged image: quay.io/prometheus/alertmanager:v0.27.0 to 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:09:20 Successfully pushed image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:09:20 Successfully pushed image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:09:22 Error pulling image quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0: Error response from daemon: manifest for quay.io/prometheus-operator/prometheus-config-reloader:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 10:09:22 Error pulling image docker.elastic.co/eck/eck-operator: Error response from daemon: manifest for docker.elastic.co/eck/eck-operator:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:09:22 Error pulling image docker.elastic.co/elasticsearch/elasticsearch: Error response from daemon: manifest for docker.elastic.co/elasticsearch/elasticsearch:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:09:23 Error pulling image quay.io/prometheus/blackbox-exporter:v0.27.0: Error response from daemon: manifest for quay.io/prometheus/blackbox-exporter:v0.27.0 not found: manifest unknown: manifest unknown
+2024/10/14 10:15:37 Logging started...
+2024/10/14 10:15:37 Source Image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:15:37 Source Image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/kube-state-metrics:v2.13.0
+2024/10/14 10:15:37 Source Image: quay.io/prometheus/blackbox-exporter:v0.25.0
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:15:37 Source Image: ghcr.io/jimmidyson/configmap-reload:v0.14.0
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:15:37 Source Image: quay.io/brancz/kube-rbac-proxy:v0.18.1
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:15:37 Source Image: quay.io/prometheus/node-exporter:v1.8.2
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:15:37 Source Image: quay.io/prometheus/prometheus:v2.54.1
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/prometheus:v2.54.1
+2024/10/14 10:15:37 Source Image: quay.io/prometheus-operator/prometheus-operator:v0.77.1
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:15:37 Source Image: registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/monitoring/prometheus-adapter:v0.12.0
+2024/10/14 10:15:37 Source Image: docker.elastic.co/eck/eck-operator
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/test/eck-operator:latest
+2024/10/14 10:15:37 Source Image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:15:37 Source Image: docker.elastic.co/elasticsearch/elasticsearch
+2024/10/14 10:15:37 Target Image: 192.168.28.210:50000/test/elasticsearch:latest
+2024/10/14 10:15:42 Successfully pulled image: quay.io/prometheus/node-exporter:v1.8.2
+2024/10/14 10:15:42 Successfully pulled image: quay.io/prometheus/blackbox-exporter:v0.25.0
+2024/10/14 10:15:42 Successfully tagged image: quay.io/prometheus/node-exporter:v1.8.2 to 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:15:42 Successfully tagged image: quay.io/prometheus/blackbox-exporter:v0.25.0 to 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:15:42 Successfully pushed image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:15:42 Successfully pushed image: 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:15:43 Successfully pulled image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:15:43 Successfully tagged image: quay.io/prometheus/alertmanager:v0.27.0 to 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:15:43 Successfully pulled image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:15:43 Successfully tagged image: quay.io/prometheuscommunity/elasticsearch-exporter to 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:15:43 Successfully pushed image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:15:43 Successfully pushed image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:15:44 Error pulling image docker.elastic.co/eck/eck-operator: Error response from daemon: manifest for docker.elastic.co/eck/eck-operator:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:15:44 Successfully pulled image: quay.io/brancz/kube-rbac-proxy:v0.18.1
+2024/10/14 10:15:44 Successfully tagged image: quay.io/brancz/kube-rbac-proxy:v0.18.1 to 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:15:44 Successfully pushed image: 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:15:44 Error pulling image docker.elastic.co/elasticsearch/elasticsearch: Error response from daemon: manifest for docker.elastic.co/elasticsearch/elasticsearch:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:16:21 Successfully pulled image: ghcr.io/jimmidyson/configmap-reload:v0.14.0
+2024/10/14 10:16:21 Successfully tagged image: ghcr.io/jimmidyson/configmap-reload:v0.14.0 to 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:16:23 Successfully pushed image: 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:18:19 Successfully pulled image: quay.io/prometheus-operator/prometheus-operator:v0.77.1
+2024/10/14 10:18:19 Successfully tagged image: quay.io/prometheus-operator/prometheus-operator:v0.77.1 to 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:18:23 Successfully pushed image: 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:23:42 Logging started...
+2024/10/14 10:23:42 Source Image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:23:42 Source Image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/kube-state-metrics:v2.13.0
+2024/10/14 10:23:42 Source Image: quay.io/prometheus/blackbox-exporter:v0.25.0
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:23:42 Source Image: ghcr.io/jimmidyson/configmap-reload:v0.14.0
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:23:42 Source Image: quay.io/brancz/kube-rbac-proxy:v0.18.1
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:23:42 Source Image: quay.io/prometheus/node-exporter:v1.8.2
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:23:42 Source Image: quay.io/prometheus/prometheus:v2.54.1
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/prometheus:v2.54.1
+2024/10/14 10:23:42 Source Image: quay.io/prometheus-operator/prometheus-operator:v0.77.1
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:23:42 Source Image: registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/monitoring/prometheus-adapter:v0.12.0
+2024/10/14 10:23:42 Source Image: docker.elastic.co/eck/eck-operator
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/test/eck-operator:latest
+2024/10/14 10:23:42 Source Image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:23:42 Source Image: docker.elastic.co/elasticsearch/elasticsearch
+2024/10/14 10:23:42 Target Image: 192.168.28.210:50000/test/elasticsearch:latest
+2024/10/14 10:23:46 Successfully pulled image: quay.io/prometheus-operator/prometheus-operator:v0.77.1
+2024/10/14 10:23:46 Successfully tagged image: quay.io/prometheus-operator/prometheus-operator:v0.77.1 to 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:23:46 Successfully pushed image: 192.168.28.210:50000/monitoring/prometheus-operator:v0.77.1
+2024/10/14 10:23:47 Successfully pulled image: ghcr.io/jimmidyson/configmap-reload:v0.14.0
+2024/10/14 10:23:47 Successfully tagged image: ghcr.io/jimmidyson/configmap-reload:v0.14.0 to 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:23:47 Successfully pushed image: 192.168.28.210:50000/monitoring/configmap-reload:v0.14.0
+2024/10/14 10:23:47 Successfully pulled image: quay.io/brancz/kube-rbac-proxy:v0.18.1
+2024/10/14 10:23:47 Successfully pulled image: quay.io/prometheuscommunity/elasticsearch-exporter
+2024/10/14 10:23:47 Successfully pulled image: quay.io/prometheus/alertmanager:v0.27.0
+2024/10/14 10:23:47 Successfully tagged image: quay.io/brancz/kube-rbac-proxy:v0.18.1 to 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:23:47 Successfully tagged image: quay.io/prometheuscommunity/elasticsearch-exporter to 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:23:47 Successfully tagged image: quay.io/prometheus/alertmanager:v0.27.0 to 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:23:48 Successfully pushed image: 192.168.28.210:50000/monitoring/kube-rbac-proxy:v0.18.1
+2024/10/14 10:23:48 Successfully pushed image: 192.168.28.210:50000/test/elasticsearch-exporter:latest
+2024/10/14 10:23:48 Successfully pushed image: 192.168.28.210:50000/monitoring/alertmanager:v0.27.0
+2024/10/14 10:23:48 Error pulling image docker.elastic.co/elasticsearch/elasticsearch: Error response from daemon: manifest for docker.elastic.co/elasticsearch/elasticsearch:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:23:51 Error pulling image docker.elastic.co/eck/eck-operator: Error response from daemon: manifest for docker.elastic.co/eck/eck-operator:latest not found: manifest unknown: manifest unknown
+2024/10/14 10:23:51 Successfully pulled image: quay.io/prometheus/blackbox-exporter:v0.25.0
+2024/10/14 10:23:51 Successfully pulled image: quay.io/prometheus/node-exporter:v1.8.2
+2024/10/14 10:23:51 Successfully tagged image: quay.io/prometheus/blackbox-exporter:v0.25.0 to 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:23:51 Successfully tagged image: quay.io/prometheus/node-exporter:v1.8.2 to 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:23:51 Successfully pushed image: 192.168.28.210:50000/monitoring/blackbox-exporter:v0.25.0
+2024/10/14 10:23:51 Successfully pushed image: 192.168.28.210:50000/monitoring/node-exporter:v1.8.2
+2024/10/14 10:23:52 Error pulling image quay.io/prometheus/prometheus:v2.54.1: Error response from daemon: Get "https://quay.io/v2/": net/http: TLS handshake timeout
+2024/10/14 10:36:22 Logging started...
+2024/10/14 10:36:22 Source Image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+2024/10/14 10:36:22 Target Image: 192.168.28.210:50000/monitoring/kube-state-metrics:v2.13.0
+2024/10/14 10:39:54 Successfully pulled image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+2024/10/14 10:39:54 Successfully tagged image: registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0 to 192.168.28.210:50000/monitoring/kube-state-metrics:v2.13.0
+2024/10/14 10:39:58 Successfully pushed image: 192.168.28.210:50000/monitoring/kube-state-metrics:v2.13.0

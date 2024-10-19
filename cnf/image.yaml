@@ -1,0 +1,10 @@
+source:
+  registries:
+    - name: monitoring #保证和target中repositories一致
+      images:
+        - registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+
+target:
+  registry: 192.168.0.101:8080
+  repositories:
+    - name: monitoring
